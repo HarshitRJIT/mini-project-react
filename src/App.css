@@ -1,0 +1,29 @@
+/* Custom styles for the weather app */
+.weather-app-container {
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.weather-app-container:hover {
+  transform: translateY(-5px);
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h4 {
+  color: #2193b0;
+}
+
+.weather-card p {
+  font-size: 1.1rem;
+  color: #333;
+}
